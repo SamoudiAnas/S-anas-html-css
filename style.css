@@ -1,0 +1,456 @@
+
+
+
+nav,
+header, 
+footer {
+    display: block;
+    
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+#first-section {
+    background-image: url(images/bg-hero.png);
+}
+
+
+
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 56px 24px 50px 24px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+div.box-2 {
+    background-color: #fff;
+    text-align: center;
+    padding: 56px 24px 50px 24px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+
+button{
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+   
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin: 30px auto;
+    outline-style: none;
+    text-align: right;
+    outline: 0;
+}
+
+
+
+
+
+
+
+.leftside-col {
+    margin-left: 10%;
+    
+}
+
+.welcome-msg {
+    text-align: center;
+}
+
+h1.large {
+    color: white;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+    text-align: center;
+}
+
+h3.large{
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+
+.header-section  {
+    font-size: 50px;
+    text-align: center;
+    color: #17202A;
+}
+
+div.p {
+    color: #555;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.container-2 {
+    background-color: #EEE;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+
+.container-3 {
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+
+
+
+p.small-info{
+    text-align: center;
+    color: #555;
+}
+
+.contact-section {
+    font-size: 50px;
+    color: #17202A;
+    margin: 2%;
+}
+
+.col-6 {
+    margin-right: 3%;
+    text-align: right;
+   
+}
+.col-5 {
+    margin: 2%;
+    text-align: left;
+   
+}
+.col-2 {
+    margin: auto;
+    text-align: center;
+}
+
+
+.col-9{
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1.headersection {
+    text-align: center;
+}
+
+/* ------------ contact syle ---------------*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #17202a;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 2px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.col-4.email{
+    margin-right: 11%;
+}
+
+.col-4.number{
+    margin-left: 11%;
+}
+
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+
+    
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #DCDCDC;
+    color: #17202A;
+    border-radius: 15px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+button.submit-btn {
+    
+    text-align: center;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    outline: none;
+}
+
+button.submit-btn:hover {
+    
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------       Footer     -------------*/
+
+.footer {
+   
+   
+    width: 100%;
+    background-color: #17202A;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    
+}
+
+
+.footer-logo {
+     width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+
+nav.footer-nav{
+  margin: auto;
+  align-items: center;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+
+ul.footer-nav li {
+   
+    list-style: none;
+    display: inline;
+    word-spacing: 10px;
+    text-decoration: none;
+    font-weight: 600;
+     
+    margin: auto;
+}
+
+ul.footer-nav li a  {
+    float: none;
+    
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    
+    text-transform: uppercase;
+    color: #fff;
+    
+    display:inline-block;
+    padding:10px;
+   
+}
+
+ul.footer-nav li a:hover  {
+   text-decoration: underline;
+    color : #0080ff;
+}
+
+
+/*------------ Grid System   -----------*/
+
+
+
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+
+
+/*-------------   Navigation   --------------*/
+
+
+
+nav {
+   
+    
+    width: 100%;
+    margin: auto;
+   
+    
+}
+
+
+.logo {
+    display: inline-block;
+    width: 39px;
+    height: 39px;
+    
+    
+}
+
+nav ul {
+    
+    background-color: #17202A;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul.top-nav li {
+    list-style: none;
+    float: right;
+    word-spacing: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+ul.top-nav li a  {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul.top-nav li a:hover  {
+    background-color: #0080FF;
+    color : white;
+}
+
+ul.top-nav li.menuicon {
+    display: none;
+    float: right;
+}
+
+
+
+/*-------------   Mobile   --------------*/
+
+@media screen and (max-width:680px){
+    
+    ul.top-nav li:not(:nth-child(1)){
+        display: none;
+    }
+}
